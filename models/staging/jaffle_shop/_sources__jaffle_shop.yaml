@@ -15,8 +15,6 @@ sources:
               
       - name: orders
         description: no one likes a stale order table
-        +tags:
-        - "daily"
         config: 
           freshness:
             warn_after:
