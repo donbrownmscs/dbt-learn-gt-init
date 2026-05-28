@@ -1,8 +1,9 @@
 models:
   - name: dim__customers
-    description: description
+    description: description, and the name is name! /s
     columns:
       - name: customer_id
+        description: if i escape what happens, it breaks, nope __Wow dbt build
         data_tests:
           - unique
           - not_null

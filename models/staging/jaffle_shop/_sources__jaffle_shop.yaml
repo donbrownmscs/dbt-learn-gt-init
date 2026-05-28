@@ -1,5 +1,6 @@
 sources:
   - name: jaffle_shop
+    description: still not sure what a jaffle is
     database: raw
     schema: jaffle_shop
     
@@ -13,6 +14,7 @@ sources:
               - not_null
               
       - name: orders
+        description: no one likes a stale order table
         config: 
           freshness:
             warn_after:
